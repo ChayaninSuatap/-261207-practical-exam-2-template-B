@@ -13,9 +13,17 @@ function App() {
   ];
   return (
     <div class="ml-2">
-      <h3 class="title is-3">Person List</h3>
+      {/* Code me please! */}
+      <div class="mb-4">
+        <h3 class="title is-3">ID Counter</h3>
+        <p>YOUR ID HERE</p>
+        <button>-</button>
+        <button>reset</button>
+        <button>+</button>
+      </div>
 
       {/* Convert me to a component! */}
+      <h3 class="title is-3">Person List</h3>
       <table class="table is-bordered mb-3">
         <tbody>
           <tr>
@@ -30,13 +38,6 @@ function App() {
           </tr>
         </tbody>
       </table>
-
-      {/* Code me please! */}
-      <h3 class="title is-3">ID Counter</h3>
-      <p>YOUR ID HERE</p>
-      <button>-</button>
-      <button>reset</button>
-      <button>+</button>
     </div>
   );
 }
